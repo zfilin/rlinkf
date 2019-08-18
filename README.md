@@ -3,17 +3,9 @@
  (c) Green FiLin <me@zfilin.org.ua>, 2010
 ------------------------------------------------------------------------------
 
-Contents:
----------
-  1. About
-  2. License
-  3. Requirements
-  4. Installation
-  5. HowTo
-
-
-1. About
+1.About
 --------
+
 This PHP script collects Refs.s and creates your own simple redirects.
 
 It usefull for you when:
@@ -30,8 +22,9 @@ It usefull for you when:
   * You want to increase amount of Refs.s to your site (domain name) in Internet.
     
 
-2. License
+2.License
 ----------
+
 This software was published under MIT License. See LICENSE in same folder.
 
 
@@ -42,7 +35,7 @@ This software was published under MIT License. See LICENSE in same folder.
   * PHP 5.x
 
   
-4. Installation
+4.Installation
 ---------------
 
   1. Unpack and copy folder "rlinkf" to your hosting.
@@ -55,7 +48,7 @@ This software was published under MIT License. See LICENSE in same folder.
   4. Enjoy!
   
 
-5. HowTo
+5.HowTo
 --------
 
 For administration your list of links go to url: http://youdomain/script-folder/_admin_

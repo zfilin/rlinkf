@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+html, body {
+	margin: 0px; padding: 0px;
+}
+
+body {
+	background-color: #313131;
+	background-image: url(bg.png);
+}
+
+.main_center {
+	width: 786px;
+	margin: 0px auto;
+	padding-top: 24px;
+	background-image: url(bg-main.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 48px; font-weight: normal;
+	padding: 0px 150px; margin: 0px;
+}
+
+h2 {
+	color: #F66;
+	font-size: 18px; font-weight: normal; font-style: italic;
+	padding: 0px 150px; margin: 0px;
+	position: relative;
+	top: -20px; left: 120px;
+}
+
+.list_block {
+	background-color: #FFF;
+	background-image: url(bg-frame.png);
+}
+
+.list_block #top_frame {
+	height: 25px;
+	background-image: url(top-frame.png);
+}
+
+.list_block #bottom_frame {
+	height: 11px;
+	background-image: url(bottom-frame.png);
+}
+
+ul {
+	margin: 0px 60px 30px 60px; padding: 0px;
+}
+
+ul li {
+	margin: 0px; padding: 10px 0px;
+	border-bottom: 1px dotted #CCC;
+	font-size: 14px;
+}
+
+ul li .item_id {
+	font-size: 16px; font-weight: bold;
+}
+
+ul.dynamic_list li {
+	padding-bottom: 15px;
+}
+
+ul.dynamic_list li .item_id{
+	margin-bottom: 2px;
+	font-size: 16px; font-weight: bold;
+}
+
+ul.dynamic_list li .controls{
+	margin-top: 5px; margin-left: 5px;
+	font-size: 12px; 
+	height: 17px;
+}
+
+ul.dynamic_list input {
+	width: 100%;
+	border: 1px solid #333;
+	background-color: #DDD;
+	margin: 2px;
+}
+
+ul.dynamic_list input:hover {
+	background-color: #EEE;
+}
+
+.list_block div#logout{
+	text-align: right;
+	margin: 0px 60px;
+}
+

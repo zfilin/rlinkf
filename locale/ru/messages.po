@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rlinkf\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-18 21:22+0200\n"
+"PO-Revision-Date: 2010-02-25 17:16+0200\n"
+"Last-Translator: Green FiLin <me@zfilin.org.ua>\n"
+"Language-Team: russian <me@zfilin.org.ua>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: db_file.php:23
+msgid "database filename can not be empty"
+msgstr "имя файла базы данных не может быть пустым"
+
+#: db_file.php:28
+#, php-format
+msgid "can`t create file %s"
+msgstr "не могу прочитать файл %s"
+
+#: db_file.php:32
+#, php-format
+msgid "can`t read file %s"
+msgstr "Не могу загрузить файл %s"
+
+#: db_file.php:37
+#, php-format
+msgid "file %s is not contained database array"
+msgstr "файл %s не содержит массива базы данных"
+
+#: db_file.php:47
+#: db_file.php:63
+#: db_file.php:78
+#: db_file.php:96
+#: db_file.php:107
+msgid "not connected to database"
+msgstr "не подключено к БД"
+
+#: db_file.php:52
+#, php-format
+msgid "can`t write file %s"
+msgstr "не могу записать файл %s"
+
+#: db_file.php:68
+#: db_file.php:112
+#, php-format
+msgid "links named %s is not found in database"
+msgstr "ссылка с именем %s не найдена в базе данных"
+
+#: db_file.php:83
+#, php-format
+msgid "links named %s already exists in database"
+msgstr "ссылка с именем %s не найдена в базе данных"
+
+#: index.php:37
+#: index.php:43
+#: index.php:52
+#, php-format
+msgid "Can`t load %s"
+msgstr "Не могу загрузить %s"
+
+#: index.php:47
+#, php-format
+msgid "Can`t connect to links database because: %s"
+msgstr "Невозможно подключиться к базе данных ссылок, так как %s"
+
+#: index.php:58
+#: index.php:59
+#: index.php:61
+#: index.php:125
+msgid "Access forbidden!"
+msgstr "Доступ запрещен!"
+
+#: index.php:70
+msgid "AJAX query error: "
+msgstr "Ошибка запроса AJAX:"
+
+#: index.php:86
+#: index.php:95
+msgid "You must set link tag!"
+msgstr "Вы должны задать тэг ссылки!"
+
+#: index.php:123
+msgid "Please login to enter to admin area"
+msgstr "Введите имя и пароль для входа в админку"
+
+#: index.php:147
+#: index.php:167
+msgid "Link list"
+msgstr ""
+
+#: index.php:167
+msgid "(admin area)"
+msgstr "(админка)"
+
+#: index.php:174
+msgid "logout"
+msgstr "выход"
+
+#: theme/template.php:23
+msgid "Edit"
+msgstr "Редактировать"
+
+#: theme/template.php:24
+msgid "Delete"
+msgstr "Удалить"
+
+#: theme/template.php:25
+msgid "Ok"
+msgstr "Ок"
+
+#: theme/template.php:26
+msgid "Cancel"
+msgstr "Отмена"
+
+#: theme/template.php:27
+msgid "Add"
+msgstr "Добавить"
+

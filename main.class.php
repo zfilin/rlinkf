@@ -59,8 +59,8 @@ Class main {
 
 	function is_authorized() {
 		list($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']) = explode(':', base64_decode(substr($_SERVER['HTTP_AUTHORIZATION'], 6)));
-		if(@$_SERVER['PHP_AUTH_USER']!=$this->set['admin_user'] || @$_SERVER['PHP_AUTH_PW']!=$this->set['admin_password']) return false;
-		return true;
+		if(@$_SERVER['PHP_AUTH_USER']==$this->set['admin_user'] && @$_SERVER['PHP_AUTH_PW']==$this->set['admin_password']) return true;
+		return false;
 	}
 
 	function AJAXmode() {
@@ -69,10 +69,6 @@ Class main {
 			return false;
 		}
 		if(parse_url($_SERVER['HTTP_REFERER'],PHP_URL_PATH)!=dirname($_SERVER['PHP_SELF']).'/_admin_') {
-			$this->errorlog(_("Access forbidden!"));
-			return false;
-		}
-		if(!$this->is_authorized()) {
 			$this->errorlog(_("Access forbidden!"));
 			return false;
 		}
